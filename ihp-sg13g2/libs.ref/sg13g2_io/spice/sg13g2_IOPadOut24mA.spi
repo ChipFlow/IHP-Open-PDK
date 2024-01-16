@@ -1,0 +1,8 @@
+* sg13g2_IOPadOut24mA
+.subckt sg13g2_IOPadOut24mA vss vdd iovss iovdd c2p pad
+Xnclamp iovss iovdd pad ngate sg13g2_Clamp_N12N12D
+Xpclamp iovss iovdd pad pgate sg13g2_Clamp_P12N12D
+Xdcndiode iovss pad iovdd sg13g2_DCNDiode
+Xdcpdiode pad iovdd iovss sg13g2_DCPDiode
+Xgatelu vdd vss iovdd c2p ngate pgate sg13g2_GateLevelUpInv
+.ends sg13g2_IOPadOut24mA

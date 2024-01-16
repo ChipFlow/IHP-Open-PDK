@@ -1,0 +1,8 @@
+* sg13g2_IOPadTriOut8mA
+.subckt sg13g2_IOPadTriOut8mA vss vdd iovss iovdd c2p c2p_en pad
+Xnclamp iovss iovdd pad ngate sg13g2_Clamp_N4N4D
+Xpclamp iovss iovdd pad pgate sg13g2_Clamp_P4N4D
+Xdcndiode iovss pad iovdd sg13g2_DCNDiode
+Xdcpdiode pad iovdd iovss sg13g2_DCPDiode
+Xgatedec vdd vss iovdd c2p c2p_en ngate pgate sg13g2_GateDecode
+.ends sg13g2_IOPadTriOut8mA

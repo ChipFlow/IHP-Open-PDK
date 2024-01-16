@@ -1,0 +1,38 @@
+* sg13g2_Clamp_N20N0D hierarchy
+
+* sg13g2_GuardRing_N16000W1980HFF
+.subckt sg13g2_GuardRing_N16000W1980HFF conn
+
+.ends sg13g2_GuardRing_N16000W1980HFF
+
+* sg13g2_GuardRing_P15280W1260HFF
+.subckt sg13g2_GuardRing_P15280W1260HFF conn
+
+.ends sg13g2_GuardRing_P15280W1260HFF
+
+* sg13g2_Clamp_N20N0D
+.subckt sg13g2_Clamp_N20N0D iovss iovdd pad
+Xclamp_g0 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g1 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g2 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g3 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g4 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g5 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g6 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g7 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g8 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g9 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g10 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g11 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g12 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g13 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g14 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g15 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g16 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g17 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g18 iovss off pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g19 pad off iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+XOuterRing iovdd sg13g2_GuardRing_N16000W1980HFF
+XInnerRing iovss sg13g2_GuardRing_P15280W1260HFF
+RRoff iovss off 1840.8
+.ends sg13g2_Clamp_N20N0D

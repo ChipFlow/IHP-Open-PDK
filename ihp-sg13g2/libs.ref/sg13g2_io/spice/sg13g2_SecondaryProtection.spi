@@ -1,0 +1,9 @@
+* sg13g2_SecondaryProtection
+.subckt sg13g2_SecondaryProtection iovdd iovss pad core
+XR pad core rppd l=2.0um w=1.0um
+Xguard1 iovss sg13g2_GuardRing_P576W948HFF
+XDN iovss core dantenna l=3.1um w=0.64um
+Xguard2 iovss sg13g2_GuardRing_P456W948HFF
+XDP core iovdd dpantenna l=0.64um w=4.98um
+Xguard3 iovdd sg13g2_GuardRing_N1324W456HTF
+.ends sg13g2_SecondaryProtection

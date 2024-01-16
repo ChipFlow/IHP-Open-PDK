@@ -1,0 +1,26 @@
+* sg13g2_SecondaryProtection hierarchy
+
+* sg13g2_GuardRing_P576W948HFF
+.subckt sg13g2_GuardRing_P576W948HFF conn
+
+.ends sg13g2_GuardRing_P576W948HFF
+
+* sg13g2_GuardRing_P456W948HFF
+.subckt sg13g2_GuardRing_P456W948HFF conn
+
+.ends sg13g2_GuardRing_P456W948HFF
+
+* sg13g2_GuardRing_N1324W456HTF
+.subckt sg13g2_GuardRing_N1324W456HTF conn
+
+.ends sg13g2_GuardRing_N1324W456HTF
+
+* sg13g2_SecondaryProtection
+.subckt sg13g2_SecondaryProtection iovdd iovss pad core
+RR pad core 520.0
+Xguard1 iovss sg13g2_GuardRing_P576W948HFF
+XDN iovss core dantenna l=3.1um w=0.64um
+Xguard2 iovss sg13g2_GuardRing_P456W948HFF
+XDP core iovdd dpantenna l=0.64um w=4.98um
+Xguard3 iovdd sg13g2_GuardRing_N1324W456HTF
+.ends sg13g2_SecondaryProtection

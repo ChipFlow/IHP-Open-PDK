@@ -1,0 +1,35 @@
+* sg13g2_LevelDown hierarchy
+
+* sg13g2_GuardRing_P576W948HFF
+.subckt sg13g2_GuardRing_P576W948HFF conn
+
+.ends sg13g2_GuardRing_P576W948HFF
+
+* sg13g2_GuardRing_P456W948HFF
+.subckt sg13g2_GuardRing_P456W948HFF conn
+
+.ends sg13g2_GuardRing_P456W948HFF
+
+* sg13g2_GuardRing_N1324W456HTF
+.subckt sg13g2_GuardRing_N1324W456HTF conn
+
+.ends sg13g2_GuardRing_N1324W456HTF
+
+* sg13g2_SecondaryProtection
+.subckt sg13g2_SecondaryProtection iovdd iovss pad core
+RR pad core 520.0
+Xguard1 iovss sg13g2_GuardRing_P576W948HFF
+XDN iovss core dantenna l=3.1um w=0.64um
+Xguard2 iovss sg13g2_GuardRing_P456W948HFF
+XDP core iovdd dpantenna l=0.64um w=4.98um
+Xguard3 iovdd sg13g2_GuardRing_N1324W456HTF
+.ends sg13g2_SecondaryProtection
+
+* sg13g2_LevelDown
+.subckt sg13g2_LevelDown vdd vss iovdd iovss pad core
+Xn_hvinv vss padres padres_n vss sg13_hv_nmos l=0.45um w=2.65um
+Xp_hvinv vdd padres padres_n vdd sg13_hv_pmos l=0.45um w=4.65um
+Xn_lvinv core padres_n vss vss sg13_lv_nmos l=0.13um w=2.75um
+Xp_lvinv core padres_n vdd vdd sg13_lv_pmos l=0.13um w=4.75um
+Xsecondprot iovdd iovss pad padres sg13g2_SecondaryProtection
+.ends sg13g2_LevelDown

@@ -1,0 +1,6 @@
+* tie hierarchy
+
+* tie
+.subckt tie vdd vss
+
+.ends tie

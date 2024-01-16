@@ -1,0 +1,12 @@
+* sg13g2_Clamp_N6N6D
+.subckt sg13g2_Clamp_N6N6D iovss iovdd pad gate
+Xclamp_g0 iovss gate pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g1 pad gate iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g2 iovss gate pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g3 pad gate iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g4 iovss gate pad iovss sg13_hv_nmos l=0.6um w=4.4um
+Xclamp_g5 pad gate iovss iovss sg13_hv_nmos l=0.6um w=4.4um
+XOuterRing iovdd sg13g2_GuardRing_N16000W1980HFF
+XInnerRing iovss sg13g2_GuardRing_P15280W1260HFF
+XDGATE iovss gate dantenna l=0.64um w=0.3um
+.ends sg13g2_Clamp_N6N6D

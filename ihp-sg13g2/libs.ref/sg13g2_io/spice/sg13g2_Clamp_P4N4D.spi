@@ -1,0 +1,14 @@
+* sg13g2_Clamp_P4N4D
+.subckt sg13g2_Clamp_P4N4D iovss iovdd pad gate
+Xclamp_g0_r0 iovdd gate pad iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g0_r1 iovdd gate pad iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g1_r0 pad gate iovdd iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g1_r1 pad gate iovdd iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g2_r0 iovdd gate pad iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g2_r1 iovdd gate pad iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g3_r0 pad gate iovdd iovdd sg13_hv_pmos l=0.6um w=6.66um
+Xclamp_g3_r1 pad gate iovdd iovdd sg13_hv_pmos l=0.6um w=6.66um
+XOuterRing iovss sg13g2_GuardRing_P16000W3852HFF
+XInnerRing iovdd sg13g2_GuardRing_N15280W3132HTF
+XDGATE gate iovdd dpantenna l=0.64um w=0.3um
+.ends sg13g2_Clamp_P4N4D

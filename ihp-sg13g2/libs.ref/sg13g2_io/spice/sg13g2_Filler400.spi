@@ -1,0 +1,4 @@
+* sg13g2_Filler400
+.subckt sg13g2_Filler400 vss vdd iovss iovdd
+
+.ends sg13g2_Filler400

@@ -1,0 +1,4 @@
+* sg13g2_GuardRing_P16000W4466HFT
+.subckt sg13g2_GuardRing_P16000W4466HFT conn
+
+.ends sg13g2_GuardRing_P16000W4466HFT

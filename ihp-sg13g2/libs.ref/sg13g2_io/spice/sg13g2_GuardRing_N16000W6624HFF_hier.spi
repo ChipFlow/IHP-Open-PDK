@@ -1,0 +1,6 @@
+* sg13g2_GuardRing_N16000W6624HFF hierarchy
+
+* sg13g2_GuardRing_N16000W6624HFF
+.subckt sg13g2_GuardRing_N16000W6624HFF conn
+
+.ends sg13g2_GuardRing_N16000W6624HFF

@@ -1,0 +1,31 @@
+* sg13g2_RCClampResistor hierarchy
+
+* sg13g2_RCClampResistor
+.subckt sg13g2_RCClampResistor pin1 pin2
+Rres_fing[0] pin1 conn_0_1 5200.0
+Rres_fing[1] conn_0_1 conn_1_2 5200.0
+Rres_fing[2] conn_1_2 conn_2_3 5200.0
+Rres_fing[3] conn_2_3 conn_3_4 5200.0
+Rres_fing[4] conn_3_4 conn_4_5 5200.0
+Rres_fing[5] conn_4_5 conn_5_6 5200.0
+Rres_fing[6] conn_5_6 conn_6_7 5200.0
+Rres_fing[7] conn_6_7 conn_7_8 5200.0
+Rres_fing[8] conn_7_8 conn_8_9 5200.0
+Rres_fing[9] conn_8_9 conn_9_10 5200.0
+Rres_fing[10] conn_9_10 conn_10_11 5200.0
+Rres_fing[11] conn_10_11 conn_11_12 5200.0
+Rres_fing[12] conn_11_12 conn_12_13 5200.0
+Rres_fing[13] conn_12_13 conn_13_14 5200.0
+Rres_fing[14] conn_13_14 conn_14_15 5200.0
+Rres_fing[15] conn_14_15 conn_15_16 5200.0
+Rres_fing[16] conn_15_16 conn_16_17 5200.0
+Rres_fing[17] conn_16_17 conn_17_18 5200.0
+Rres_fing[18] conn_17_18 conn_18_19 5200.0
+Rres_fing[19] conn_18_19 conn_19_20 5200.0
+Rres_fing[20] conn_19_20 conn_20_21 5200.0
+Rres_fing[21] conn_20_21 conn_21_22 5200.0
+Rres_fing[22] conn_21_22 conn_22_23 5200.0
+Rres_fing[23] conn_22_23 conn_23_24 5200.0
+Rres_fing[24] conn_23_24 conn_24_25 5200.0
+Rres_fing[25] conn_24_25 pin2 5200.0
+.ends sg13g2_RCClampResistor

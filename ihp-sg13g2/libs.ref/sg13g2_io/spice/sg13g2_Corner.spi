@@ -1,0 +1,4 @@
+* sg13g2_Corner
+.subckt sg13g2_Corner vss vdd iovss iovdd
+
+.ends sg13g2_Corner

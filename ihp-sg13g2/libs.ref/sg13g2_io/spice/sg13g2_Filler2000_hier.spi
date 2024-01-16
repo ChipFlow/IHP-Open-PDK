@@ -1,0 +1,6 @@
+* sg13g2_Filler2000 hierarchy
+
+* sg13g2_Filler2000
+.subckt sg13g2_Filler2000 vss vdd iovss iovdd
+
+.ends sg13g2_Filler2000

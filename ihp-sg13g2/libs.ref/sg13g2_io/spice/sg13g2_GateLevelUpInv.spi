@@ -1,0 +1,5 @@
+* sg13g2_GateLevelUpInv
+.subckt sg13g2_GateLevelUpInv vdd vss iovdd core ngate pgate
+Xngate_levelup vdd iovdd vss core ngate sg13g2_LevelUpInv
+Xpgate_levelup vdd iovdd vss core pgate sg13g2_LevelUpInv
+.ends sg13g2_GateLevelUpInv

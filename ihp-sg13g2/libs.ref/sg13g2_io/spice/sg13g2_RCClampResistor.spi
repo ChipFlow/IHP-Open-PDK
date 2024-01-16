@@ -1,0 +1,29 @@
+* sg13g2_RCClampResistor
+.subckt sg13g2_RCClampResistor pin1 pin2
+Xres_fing[0] pin1 conn_0_1 rppd l=20.0um w=1.0um
+Xres_fing[1] conn_0_1 conn_1_2 rppd l=20.0um w=1.0um
+Xres_fing[2] conn_1_2 conn_2_3 rppd l=20.0um w=1.0um
+Xres_fing[3] conn_2_3 conn_3_4 rppd l=20.0um w=1.0um
+Xres_fing[4] conn_3_4 conn_4_5 rppd l=20.0um w=1.0um
+Xres_fing[5] conn_4_5 conn_5_6 rppd l=20.0um w=1.0um
+Xres_fing[6] conn_5_6 conn_6_7 rppd l=20.0um w=1.0um
+Xres_fing[7] conn_6_7 conn_7_8 rppd l=20.0um w=1.0um
+Xres_fing[8] conn_7_8 conn_8_9 rppd l=20.0um w=1.0um
+Xres_fing[9] conn_8_9 conn_9_10 rppd l=20.0um w=1.0um
+Xres_fing[10] conn_9_10 conn_10_11 rppd l=20.0um w=1.0um
+Xres_fing[11] conn_10_11 conn_11_12 rppd l=20.0um w=1.0um
+Xres_fing[12] conn_11_12 conn_12_13 rppd l=20.0um w=1.0um
+Xres_fing[13] conn_12_13 conn_13_14 rppd l=20.0um w=1.0um
+Xres_fing[14] conn_13_14 conn_14_15 rppd l=20.0um w=1.0um
+Xres_fing[15] conn_14_15 conn_15_16 rppd l=20.0um w=1.0um
+Xres_fing[16] conn_15_16 conn_16_17 rppd l=20.0um w=1.0um
+Xres_fing[17] conn_16_17 conn_17_18 rppd l=20.0um w=1.0um
+Xres_fing[18] conn_17_18 conn_18_19 rppd l=20.0um w=1.0um
+Xres_fing[19] conn_18_19 conn_19_20 rppd l=20.0um w=1.0um
+Xres_fing[20] conn_19_20 conn_20_21 rppd l=20.0um w=1.0um
+Xres_fing[21] conn_20_21 conn_21_22 rppd l=20.0um w=1.0um
+Xres_fing[22] conn_21_22 conn_22_23 rppd l=20.0um w=1.0um
+Xres_fing[23] conn_22_23 conn_23_24 rppd l=20.0um w=1.0um
+Xres_fing[24] conn_23_24 conn_24_25 rppd l=20.0um w=1.0um
+Xres_fing[25] conn_24_25 pin2 rppd l=20.0um w=1.0um
+.ends sg13g2_RCClampResistor

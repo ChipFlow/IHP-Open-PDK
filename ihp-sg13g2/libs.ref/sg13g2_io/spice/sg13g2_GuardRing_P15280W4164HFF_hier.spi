@@ -1,0 +1,6 @@
+* sg13g2_GuardRing_P15280W4164HFF hierarchy
+
+* sg13g2_GuardRing_P15280W4164HFF
+.subckt sg13g2_GuardRing_P15280W4164HFF conn
+
+.ends sg13g2_GuardRing_P15280W4164HFF

@@ -1,0 +1,6 @@
+* sg13g2_DCPDiode
+.subckt sg13g2_DCPDiode anode cathode guard
+Xdcdiode[0] anode cathode dpantenna l=1.26um w=27.78um
+Xdcdiode[1] anode cathode dpantenna l=1.26um w=27.78um
+Xguard guard sg13g2_GuardRing_P7276W2716HFF
+.ends sg13g2_DCPDiode

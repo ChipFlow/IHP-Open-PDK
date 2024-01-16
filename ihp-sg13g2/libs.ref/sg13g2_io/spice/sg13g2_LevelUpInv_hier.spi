@@ -1,0 +1,13 @@
+* sg13g2_LevelUpInv hierarchy
+
+* sg13g2_LevelUpInv
+.subckt sg13g2_LevelUpInv vdd iovdd vss i o
+Xn_i_inv i_n i vss vss sg13_lv_nmos l=0.13um w=2.75um
+Xp_i_inv i_n i vdd vdd sg13_lv_pmos l=0.13um w=4.75um
+Xn_lvld_n vss i_n lvld_n vss sg13_hv_nmos l=0.45um w=1.9um
+Xn_lvld lvld i vss vss sg13_hv_nmos l=0.45um w=1.9um
+Xp_lvld_n iovdd lvld lvld_n iovdd sg13_hv_pmos l=0.45um w=0.3um
+Xp_lvld lvld lvld_n iovdd iovdd sg13_hv_pmos l=0.45um w=0.3um
+Xn_lvld_n_inv vss lvld_n o vss sg13_hv_nmos l=0.45um w=1.9um
+Xp_lvld_n_inv iovdd lvld_n o iovdd sg13_hv_pmos l=0.45um w=3.9um
+.ends sg13g2_LevelUpInv

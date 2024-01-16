@@ -1,0 +1,8 @@
+* sg13g2_LevelDown
+.subckt sg13g2_LevelDown vdd vss iovdd iovss pad core
+Xn_hvinv vss padres padres_n vss sg13_hv_nmos l=0.45um w=2.65um
+Xp_hvinv vdd padres padres_n vdd sg13_hv_pmos l=0.45um w=4.65um
+Xn_lvinv core padres_n vss vss sg13_lv_nmos l=0.13um w=2.75um
+Xp_lvinv core padres_n vdd vdd sg13_lv_pmos l=0.13um w=4.75um
+Xsecondprot iovdd iovss pad padres sg13g2_SecondaryProtection
+.ends sg13g2_LevelDown
