@@ -1,0 +1,213 @@
+Simulated drive strength of output IO cells.  
+Simulates the sink and source current of the cell when the pad is
+driven to opposite voltage.
+
+# NOM corner
+
+* Vdd: 1.20V
+* IO Vdd: 3.30V
+* Temperature: 25.0℃
+* process: lvmos_tt, hvmos_tt, res_typ, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
+
+# FAST corner
+
+* Vdd: 1.32V
+* IO Vdd: 3.63V
+* Temperature: -40.0℃
+* process: lvmos_ff, hvmos_ff, res_bcs, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
+
+# FAST_COMM corner
+
+* Vdd: 1.32V
+* IO Vdd: 3.63V
+* Temperature: 0.0℃
+* process: lvmos_ff, hvmos_ff, res_bcs, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
+
+# FAST_ROOM corner
+
+* Vdd: 1.32V
+* IO Vdd: 3.63V
+* Temperature: 25.0℃
+* process: lvmos_ff, hvmos_ff, res_bcs, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
+
+# SLOW corner
+
+* Vdd: 1.08V
+* IO Vdd: 2.97V
+* Temperature: 125.0℃
+* process: lvmos_ss, hvmos_ss, res_wcs, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
+
+# SLOW_COMM corner
+
+* Vdd: 1.08V
+* IO Vdd: 2.97V
+* Temperature: 70.0℃
+* process: lvmos_ss, hvmos_ss, res_wcs, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
+
+# SLOW_ROOM corner
+
+* Vdd: 1.08V
+* IO Vdd: 2.97V
+* Temperature: 25.0℃
+* process: lvmos_ss, hvmos_ss, res_wcs, dio
+
+		Sink [mA]	Source [mA]
+sg13g2_IOPadOut4mA	nan		nan
+sg13g2_IOPadOut8mA	nan		nan
+sg13g2_IOPadOut12mA	nan		nan
+sg13g2_IOPadOut16mA	nan		nan
+sg13g2_IOPadOut20mA	nan		nan
+sg13g2_IOPadOut24mA	nan		nan
+sg13g2_IOPadOut30mA	nan		nan
+sg13g2_IOPadTriOut4mA	nan		nan
+sg13g2_IOPadTriOut8mA	nan		nan
+sg13g2_IOPadTriOut12mA	nan		nan
+sg13g2_IOPadTriOut16mA	nan		nan
+sg13g2_IOPadTriOut20mA	nan		nan
+sg13g2_IOPadTriOut24mA	nan		nan
+sg13g2_IOPadTriOut30mA	nan		nan
+sg13g2_IOPadInOut4mA	nan		nan
+sg13g2_IOPadInOut8mA	nan		nan
+sg13g2_IOPadInOut12mA	nan		nan
+sg13g2_IOPadInOut16mA	nan		nan
+sg13g2_IOPadInOut20mA	nan		nan
+sg13g2_IOPadInOut24mA	nan		nan
+sg13g2_IOPadInOut30mA	nan		nan
